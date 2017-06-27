@@ -17,7 +17,7 @@
     "testTsconfig": "tsconfig.spec.json",
     "prefix": "mangol",
     "styles": [
-      "demo.scss"
+      "birdlife.scss"
     ],
     "scripts": [
       "../node_modules/openlayers/dist/ol.js",

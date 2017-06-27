@@ -1,7 +1,7 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {
-  MapComponent
+  GPSMapComponent
 } from './birdlife/map';
 
 const appRoutes: Routes = [
@@ -11,7 +11,7 @@ const appRoutes: Routes = [
     pathMatch: 'full'
   }, {
     path: 'map',
-    component: MapComponent
+    component: GPSMapComponent
   }
 ];
 

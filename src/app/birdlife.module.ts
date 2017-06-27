@@ -12,13 +12,13 @@ import { MangolModule } from './../../index';
 import { BirdlifeComponent } from './birdlife.component';
 
 import {
-  MapComponent
+  GPSMapComponent
 } from './birdlife/map';
 
 @NgModule({
   declarations: [
     BirdlifeComponent,
-    MapComponent
+    GPSMapComponent
   ],
   imports: [
     BrowserModule,
